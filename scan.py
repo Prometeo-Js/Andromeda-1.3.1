@@ -12,6 +12,7 @@ print("""
   ███    █▀   ▀█   █▀  ████████▀    ███    ███  ▀██████▀   ▀█   ███   █▀    ██████████ ████████▀    ███    █▀
                                     ███    ███
 """)
+print("Version 1.1")
 while True:
     print('Menu')
     print('[1]Escaneo de puertos de ip')
