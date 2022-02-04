@@ -12,6 +12,7 @@ print("""
   ███    █▀   ▀█   █▀  ████████▀    ███    ███  ▀██████▀   ▀█   ███   █▀    ██████████ ████████▀    ███    █▀
                                     ███    ███
 """)
+#INICIO DE CODIGO
 print("Version 1.1")
 while True:
     print('Menu')
