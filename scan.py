@@ -14,6 +14,7 @@ print("""
 """)
 #INICIO DE CODIGO
 print("Version 1.1")
+print("ECHO POR PROMETEO-CYBER")
 while True:
     print('Menu')
     print('[1]Escaneo de puertos de ip')
