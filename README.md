@@ -22,11 +22,11 @@ TERMUX DOES NOT WORK AT THE MOMENT
 
 SCRIPT EXECUTION:
 
-python3 scan.py
+python3 Andromeda.py
 
-chmod +x scan.py
+chmod +x Andromeda.py
 
-./scan.py (THIS WILL BE DONE AFTER GIVING PERMISSION WITH CHMOD)
+./Andromeda.py (THIS WILL BE DONE AFTER GIVING PERMISSION WITH CHMOD)
 
 for this version the menu system was added as well as the option to do local network scanning. 
 other things to note is that it is expected to add more modifications to it in the future for a better adaptation to the previous version of andromeda will be unsupported. 
@@ -56,11 +56,11 @@ TERMUX NO FUNCIONA DE MOMENTO
 
 EJECUCIÓN DEL SCRIPT:
 
-python3 scan.py
+python3 Andromeda.py
 
-chmod +x scan.py
+chmod +x Andromeda.py
 
-./scan.py (ESTO SE REALIZARÁ DESPUÉS DE DAR PERMISO CON CHMOD)
+./Andromeda.py (ESTO SE REALIZARÁ DESPUÉS DE DAR PERMISO CON CHMOD)
 
 para esta versión se agregó el sistema de menús así como la opción de hacer escaneo de red local.
 Otras cosas a tener en cuenta es que se espera que se le agreguen más modificaciones en el futuro para una mejor adaptación a la versión anterior de Andromeda que no tendrá soporte.
