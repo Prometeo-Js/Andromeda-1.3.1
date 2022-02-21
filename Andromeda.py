@@ -13,6 +13,7 @@ print("""
                                     ███    ███
 """)
 #INICIO DE CODIGO
+#Sera vienbenida toda ayuda posible 
 print('/////////////////////////')
 print("Version 1.2")
 print("ECHO POR PROMETEO-CYBER")
