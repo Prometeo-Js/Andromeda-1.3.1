@@ -14,7 +14,7 @@ print("""
 """)
 #INICIO DE CODIGO
 print('/////////////////////////')
-print("Version 1.1")
+print("Version 1.2")
 print("ECHO POR PROMETEO-CYBER")
 print("GNU GENERAL PUBLIC LICENSE RSPALDA ESTE SCRIPT")
 print('/////////////////////////')
