@@ -1,5 +1,5 @@
-# Andromeda1.1
-Andromeda automated port scanning 1.1
+# Andromeda 1.2
+Andromeda automated port scanning 1.2
 Using andromeda scan with the help of python and nmap ip assigned looking for open tcp and udp ports.
 
 REQUIREMENTS TO HAVE ANDROMEDA:
