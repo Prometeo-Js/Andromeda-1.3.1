@@ -44,7 +44,7 @@ Tenga nmap instalado, de lo contrario, el script para instalar no funcionará
 
 INSTALACIONES NECESARIAS SI NO LAS DISPONE:
 
-sudo apt instalar nmap
+sudo apt install nmap
 
 pip install python-nmap (ESTO ES NECESARIO PARA HACER QUE EL SCRIPT FUNCIONE)
 
@@ -56,9 +56,9 @@ TERMUX NO FUNCIONA DE MOMENTO
 
 EJECUCIÓN DEL SCRIPT:
 
-python3 escanear.py
+python3 scan.py
 
-chmod +x escanear.py
+chmod +x scan.py
 
 ./scan.py (ESTO SE REALIZARÁ DESPUÉS DE DAR PERMISO CON CHMOD)
 
