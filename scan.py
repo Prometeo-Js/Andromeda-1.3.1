@@ -16,6 +16,7 @@ print("""
 print('/////////////////////////')
 print("Version 1.1")
 print("ECHO POR PROMETEO-CYBER")
+print(" GNU GENERAL PUBLIC LICENSE RSPALDA ESTE SCRIPT")
 print('/////////////////////////')
 while True:
     print('Menu')
