@@ -1,33 +1,30 @@
 # Andromeda 1.2
-Análisis de puertos automatizado de Andromeda 1.2
+Andromeda 1.2 Automated Port Scanning
 
-Usando andromeda scan con la ayuda de python y nmap ip asignado buscando puertos tcp y udp abiertos.
+Using andromeda scan with the help of python and nmap assigned ip looking for open tcp and udp ports.
 
-REQUISITOS PARA TENER ANDROMEDA:
+REQUIREMENTS TO HAVE ANDROMEDA:
 
-Tener python en su versión 3
+Have python in its version 3
 
-Tenga nmap instalado, de lo contrario, el script para instalar no funcionará
+Have nmap installed, otherwise the install script will not work
 
-INSTALACIONES NECESARIAS SI NO LAS DISPONE:
+NECESSARY FACILITIES IF YOU DO NOT HAVE THEM:
 
 sudo apt install nmap
 
-pip install python-nmap (ESTO ES NECESARIO PARA HACER QUE EL SCRIPT FUNCIONE)
+pip install python-nmap (THIS IS REQUIRED TO MAKE THE SCRIPT WORK)
 
-SISTEMAS PROBADOS:
+PROVEN SYSTEMS:
 
-UBUNTU 20.04.04 LTS EN FUNCIONAMIENTO
-KALI LINUX 2022.4 EN FUNCIONAMIENTO
-TERMUX NO FUNCIONA DE MOMENTO
+UBUNTU 20.04.04 LTS RUNNING KALI LINUX 2022.4 RUNNING TERMUX IS NOT WORKING AT THE MOMENT
 
-EJECUCIÓN DEL SCRIPT:
+SCRIPT EXECUTION:
 
 python3 Andromeda.py
 
 chmod +x Andromeda.py
 
-./Andromeda.py (ESTO SE REALIZARÁ DESPUÉS DE DAR PERMISO CON CHMOD)
+./Andromeda.py (THIS WILL BE DONE AFTER GIVING PERMISSION WITH CHMOD)
 
-para esta versión se agregó el sistema de menús así como la opción de hacer escaneo de red local.
-Otras cosas a tener en cuenta es que se espera que se le agreguen más modificaciones en el futuro para una mejor adaptación a la versión anterior de Andromeda que no tendrá soporte.
+for this version the menu system was added as well as the option to scan the local network. Other things to keep in mind is that more modifications are expected to be added in the future to better adapt to the older version of Andromeda that will not be supported.
