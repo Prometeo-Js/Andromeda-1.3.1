@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import random as rd
-
 print("""
    ____         _               
   / __ \       (_)              
