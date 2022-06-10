@@ -15,18 +15,18 @@ print("""
 #INICIO DE CODIGO
 #Sera vienbenida toda ayuda posible 
 print('/////////////////////////')
-print("Version 1.2")
-print("ECHO POR PROMETEO-CYBER")
-print("GNU GENERAL PUBLIC LICENSE VERSION 2 RESPALDA ESTE SCRIPT")
+print("Version 1.3")
+print("MADE BY PROMETEO-CYBER")
+print("GNU GENERAL PUBLIC LICENSE VERSION 2 SUPPORTS THIS SCRIPT")
 print('/////////////////////////')
 while True:
     print('Menu')
-    print('[1]Escaneo de puertos de ip')
-    print('[2]Escaneo de red mediante PING')
-    print('[3]Salir')
-    opcion = int(input('Ingrese una de las opciones:'))
+    print('[1]ip port scan')
+    print('[2]Network scan by PING')
+    print('[3]Exit')
+    opcion = int(input('Enter one of the options:'))
     if opcion == 1:
-        ip = input('[+]Introduce direccion IP objetivo: ')
+        ip = input('[+]Enter a target IP address:')
         nm = nmap.PortScanner()
         puertos_abiertos = "-p"
         count = 0
@@ -48,7 +48,7 @@ while True:
         print("\nPuertos abiertos:"+puertos_abiertos+" "+(ip))
     elif opcion == 2:
         cont=0
-        print("PingEscaner:Buscando dispositivos")
+        print("PingEscaner:Scan for devices")
         print("")
         for ip in range(1, 255):
             print(ip)
@@ -61,9 +61,9 @@ while True:
                 print (" | "+str(cont)+"|%s|IP ACTIVA|" %(stdout.decode().split()[1]))
                 with open("ips.txt","a")as myfile:
                     myfile.write(stdout.decode().split()[1]+'\n')
-                    print ("Total De Dispositivos Activos: " + str(cont))
+                    print ("Total of active devices: " + str(cont))
     elif opcion ==3:
-        print("Apagando")       
+        print("Cerrando Herramientas")      
         break
     else:
         print("Ninguna opcion existe")
