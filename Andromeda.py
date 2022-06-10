@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import nmap
 from subprocess import *
+import subprocess
 print("""
    ▄████████ ███▄▄▄▄   ████████▄     ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████ ████████▄     ▄████████
   ███    ███ ███▀▀▀██▄ ███   ▀███   ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███ ███   ▀███   ███    ███
@@ -23,7 +24,8 @@ while True:
     print('Menu')
     print('[1]ip port scan')
     print('[2]Network scan by PING')
-    print('[3]Exit')
+    print('[3]Show ip')
+    print('[4]Exit')
     opcion = int(input('Enter one of the options:'))
     if opcion == 1:
         ip = input('[+]Enter a target IP address:')
@@ -63,8 +65,8 @@ while True:
                     myfile.write(stdout.decode().split()[1]+'\n')
                     print ("Total of active devices: " + str(cont))
     elif opcion ==3:
-        print("Closing Tools")      
-        break
+        subprocess.call("ifconfig", shell=True)
+        
     else:
-        print("No options exist")
-        break 
+        print("Closed successfully")
+        break
