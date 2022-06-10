@@ -13,13 +13,12 @@ print("""
   ███    █▀   ▀█   █▀  ████████▀    ███    ███  ▀██████▀   ▀█   ███   █▀    ██████████ ████████▀    ███    █▀
                                     ███    ███
 """)
-#INICIO DE CODIGO
-#Sera vienbenida toda ayuda posible 
-print('/////////////////////////')
+#START OF CODE
+print('///////////////////////////////////////////////////////////////////////////')
 print("Version 1.3")
 print("MADE BY PROMETEO-CYBER")
 print("GNU GENERAL PUBLIC LICENSE VERSION 2 SUPPORTS THIS SCRIPT")
-print('/////////////////////////')
+print('///////////////////////////////////////////////////////////////////////////')
 while True:
     print('Menu')
     print('[1]ip port scan')
@@ -47,7 +46,7 @@ while True:
                     count = 1
                 else:
                     puertos_abiertos = puertos_abiertos + "," + str(port)
-        print("\nPuertos abiertos:"+puertos_abiertos+" "+(ip))
+        print("\nOpen ports:"+puertos_abiertos+" "+(ip))
     elif opcion == 2:
         cont=0
         print("PingEscaner:Scan for devices")
