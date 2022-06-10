@@ -66,7 +66,6 @@ while True:
                     print ("Total of active devices: " + str(cont))
     elif opcion ==3:
         subprocess.call("ifconfig", shell=True)
-        
     else:
         print("Closed successfully")
         break
