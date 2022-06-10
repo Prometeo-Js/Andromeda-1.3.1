@@ -28,3 +28,5 @@ chmod +x Andromeda.py
 ./Andromeda.py (THIS WILL BE DONE AFTER GIVING PERMISSION WITH CHMOD)
 
 for this version the menu system was added as well as the option to scan the local network. Other things to keep in mind is that more modifications are expected to be added in the future to better adapt to the older version of Andromeda that will not be supported.
+
+WORKING ON THE NEW VERSION
