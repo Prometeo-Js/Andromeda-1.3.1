@@ -1,5 +1,5 @@
 # Andromeda 
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.sv)](LICENSE)
 
 Andromeda  Automated Port Scanning
 
