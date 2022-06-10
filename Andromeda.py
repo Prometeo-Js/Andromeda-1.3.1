@@ -2,6 +2,7 @@
 import nmap
 from subprocess import *
 import subprocess
+import os
 print("""
    ▄████████ ███▄▄▄▄   ████████▄     ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████ ████████▄     ▄████████
   ███    ███ ███▀▀▀██▄ ███   ▀███   ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███ ███   ▀███   ███    ███
@@ -24,7 +25,8 @@ while True:
     print('[1]ip port scan')
     print('[2]Network scan by PING')
     print('[3]Show ip')
-    print('[4]Exit')
+    print('[4]Scanning to server')
+    print('[5]Exit')
     opcion = int(input('Enter one of the options:'))
     if opcion == 1:
         ip = input('[+]Enter a target IP address:')
@@ -65,6 +67,14 @@ while True:
                     print ("Total of active devices: " + str(cont))
     elif opcion ==3:
         subprocess.call("ifconfig", shell=True)
+    elif opcion==4:
+        def myping(host):
+            response =os.system("ping -c 1 " + host)
+            if response ==0:
+                return True
+            else:
+                return False
+        print(myping("www.gogle.com"))
     else:
         print("Closed successfully")
         break
