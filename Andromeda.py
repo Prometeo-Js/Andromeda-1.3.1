@@ -63,7 +63,7 @@ while True:
                     myfile.write(stdout.decode().split()[1]+'\n')
                     print ("Total De Dispositivos Activos: " + str(cont))
     elif opcion ==3:
-        print("Apagando sistemas")
+        print("Apagando")
         break
     else:
         print("Ninguna opcion existe")
