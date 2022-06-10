@@ -63,8 +63,8 @@ while True:
                     myfile.write(stdout.decode().split()[1]+'\n')
                     print ("Total of active devices: " + str(cont))
     elif opcion ==3:
-        print("Cerrando Herramientas")      
+        print("Closing Tools")      
         break
     else:
-        print("Ninguna opcion existe")
+        print("No options exist")
         break 
