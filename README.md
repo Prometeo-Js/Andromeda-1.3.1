@@ -11,5 +11,10 @@
 ## Brief script review
 script board tools created in python that are helpful in cybersecurity although they can be modified in the future by adding more in other languages.
 
-### Ways of executing script
-Currently it has 2 forms of execution
+### Running script
+
+***Executed without permission***
+> **user@linux:~$python3 Andromeda.py**
+
+***Execution with permission***
+> **root@linux:~# ./Andromeda**
