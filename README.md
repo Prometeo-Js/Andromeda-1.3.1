@@ -9,4 +9,7 @@
 > Old version 1.2
 > Current version 1.3
 ## Brief script review
-script board tools created in python that are helpful in cybersecurity although they can be modified in the future by adding more in other languages. 
+script board tools created in python that are helpful in cybersecurity although they can be modified in the future by adding more in other languages.
+
+### Ways of executing script
+Currently it has 2 forms of execution
