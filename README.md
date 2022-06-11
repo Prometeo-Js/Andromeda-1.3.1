@@ -1,5 +1,5 @@
 # Andromeda 
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+
 Andromeda  Automated Port Scanning
 
 Using andromeda scan with the help of python and nmap assigned ip looking for open tcp and udp ports.
