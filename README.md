@@ -1,5 +1,5 @@
 # WELCOME TO ANDROMEDA GUIDE
-** Older versions **
+**Older versions**
 > Old version 0.1
 > Old version 1.1
 > Old version 1.2
