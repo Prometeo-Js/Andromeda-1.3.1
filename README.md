@@ -1,5 +1,7 @@
 # WELCOME TO ANDROMEDA GUIDE
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 **Older versions**
 > Old version 0.1
 > Old version 1.1
