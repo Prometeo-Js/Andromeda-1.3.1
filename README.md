@@ -18,3 +18,6 @@ script board tools created in python that are helpful in cybersecurity although 
 
 ***Execution with permission***
 > **root@linux:~# ./Andromeda**
+
+***Visit the wiki for more information on future changes and updates.***
+> # https://github.com/Prometeo-cyber/Andromeda-1.3/wiki
