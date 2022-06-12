@@ -18,7 +18,7 @@ print("""
 print('///////////////////////////////////////////////////////////////////////////')
 print("Version 1.3")
 print("MADE BY PROMETEO-CYBER")
-print("GNU GENERAL PUBLIC LICENSE VERSION 2 SUPPORTS THIS SCRIPT")
+print("GNU GENERAL PUBLIC LICENSE VERSION 3 SUPPORTS THIS SCRIPT")
 print('///////////////////////////////////////////////////////////////////////////')
 while True:
     print('Menu')
