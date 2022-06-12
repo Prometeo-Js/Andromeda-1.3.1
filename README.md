@@ -17,7 +17,7 @@ script board tools created in python that are helpful in cybersecurity although 
 > **user@linux:~$python3 Andromeda.py**
 
 ***Execution with permission***
-> **root@linux:~# ./Andromeda**
+> **root@linux:~# ./Andromeda.py**
 
 ***Before using pip it is recommended to have python3 already installed on the computer, otherwise the options will not work.***
 ## Installation required to run port scanning per ip  
