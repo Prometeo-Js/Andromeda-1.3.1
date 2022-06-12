@@ -18,6 +18,8 @@ script board tools created in python that are helpful in cybersecurity although 
 
 ***Execution with permission***
 > **root@linux:~# ./Andromeda**
+
+***Before using pip it is recommended to have python3 already installed on the computer, otherwise the options will not work.***
 ## Installation required to run port scanning per ip  
 > **user@linux:~$pip install python-nmap**
 
