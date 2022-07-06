@@ -31,3 +31,4 @@ script board tools created in python that are helpful in cybersecurity although 
 - **supported operating systems** :computer:
 - **:penguin: Gnu/Linux Ubuntu 20.04**
 - **:window: windows not supported yet**
+- **:iphone: phone not supported yet**
