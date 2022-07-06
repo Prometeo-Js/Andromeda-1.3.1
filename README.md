@@ -29,5 +29,5 @@ script board tools created in python that are helpful in cybersecurity although 
 > # https://github.com/Prometeo-cyber/Andromeda-1.3/wiki
 
 - **supported operating systems** :computer:
-> -**:penguin: Gnu/Linux Ubuntu 20.04**
-> -**:window: windows not supported yet**
+- **:penguin: Gnu/Linux Ubuntu 20.04**
+- **:window: windows not supported yet**
