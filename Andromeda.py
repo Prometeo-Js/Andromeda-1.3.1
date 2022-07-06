@@ -16,9 +16,8 @@ print("""
 """)
 #START OF CODE
 print('///////////////////////////////////////////////////////////////////////////')
-print("Version 1.3")
-print("MADE BY PROMETEO-CYBER")
-print("GNU GENERAL PUBLIC LICENSE VERSION 3 SUPPORTS THIS SCRIPT")
+print("Version 1.3.1")
+print("MADE BY PROMETEO-Js")
 print('///////////////////////////////////////////////////////////////////////////')
 while True:
     print('Menu')
